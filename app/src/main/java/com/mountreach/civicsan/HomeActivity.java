@@ -7,7 +7,6 @@ import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.mountreach.civicsan.Fragment.HomeFragment;
-import com.mountreach.civicsan.Fragment.NearbyFragment;
 import com.mountreach.civicsan.Fragment.ReportFragment;
 import com.mountreach.civicsan.Fragment.StatusFragment;
 
@@ -33,7 +32,7 @@ public class HomeActivity extends AppCompatActivity {
                 selectedFragment = new HomeFragment();
             }
             else if (item.getItemId() == R.id.nav_nearby) {
-                selectedFragment = new NearbyFragment();
+                selectedFragment = new com.mountreach.civicsan.NearbyFragment();
             }
             else if (item.getItemId() == R.id.nav_status) {
                 selectedFragment = new StatusFragment();

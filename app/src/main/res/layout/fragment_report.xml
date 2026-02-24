@@ -1,14 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.ReportFragment">
+    android:padding="16dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <EditText
+            android:id="@+id/etUserName"
+            android:hint="Your Name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Spinner
+            android:id="@+id/spIssueType"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:hint="Describe the issue"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="top"/>
+
+        <Button
+            android:id="@+id/btnUploadImage"
+            android:text="Upload Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:text="Submit Report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</ScrollView>
