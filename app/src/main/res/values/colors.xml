@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#F54927</color>
+    <color name="primary_light1">#FF6F52</color>
+    <color name="primary_light2">#FF8A75</color>
+    <color name="primary_light3">#FFA08F</color>
+    <color name="primary_light4">#F8DFC0</color>
+    <color name="primary_light">#FF8A65</color>
+    <color name="primary_dark">#C63C1D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="bottom_nav_selected">@color/primary</color>
+    <color name="bottom_nav_unselected">#B0B0B0</color>
+</resources>
