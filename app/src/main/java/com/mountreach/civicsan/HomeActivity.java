@@ -6,9 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.mountreach.civicsan.Fragment.HomeFragment;
-import com.mountreach.civicsan.Fragment.ReportFragment;
-import com.mountreach.civicsan.Fragment.StatusFragment;
+import com.mountreach.civicsan.fragment.HomeFragment;
+import com.mountreach.civicsan.fragment.ReportFragment;
+import com.mountreach.civicsan.fragment.StatusFragment;
 
 public class HomeActivity extends AppCompatActivity {
 

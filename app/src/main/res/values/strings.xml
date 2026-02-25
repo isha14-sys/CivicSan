@@ -1,5 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CivicSan</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="report_title">Report Issue</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+
+    <string-array name="report_categories">
+        <item>Sanitation Issue</item>
+        <item>Maintenance Required</item>
+        <item>Cleanliness Problem</item>
+        <item>Facility Damage</item>
+        <item>Supply Shortage</item>
+        <item>Other</item>
+    </string-array>
 </resources>

@@ -1,4 +1,6 @@
-package com.mountreach.civicsan.Retrofit;
+package com.mountreach.civicsan.retrofit;
+
+import com.mountreach.civicsan.model.ResponseModel;
 
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;

@@ -7,9 +7,7 @@
     <color name="primary_light4">#F8DFC0</color>
     <color name="primary_light">#FF8A65</color>
     <color name="primary_dark">#C63C1D</color>
-    <color name="white">#FFFFFF</color>
-    <color name="black">#000000</color>
+    <color name="Black">#000000</color>
+    <color name="white">#ffffff</color>
 
-    <color name="bottom_nav_selected">@color/primary</color>
-    <color name="bottom_nav_unselected">#B0B0B0</color>
 </resources>
