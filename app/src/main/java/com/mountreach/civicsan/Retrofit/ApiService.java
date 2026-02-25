@@ -11,11 +11,11 @@ public interface ApiService {
     @POST("submit_report.php")
     Call<ResponseModel> submitReport(
             @Part("toilet_id") RequestBody toiletId,
-            @Part("user_name") RequestBody userName,
-            @Part("issue_type") RequestBody issueType,
-            @Part("description") RequestBody description,
-            @Part("latitude") RequestBody latitude,
-            @Part("longitude") RequestBody longitude,
+            @Part("name") RequestBody name,
+            @Part("issue_type") RequestBody issue,
+            @Part("description") RequestBody desc,
+            @Part("latitude") RequestBody lat,
+            @Part("longitude") RequestBody lng,
             @Part MultipartBody.Part image
     );
 }
